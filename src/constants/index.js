@@ -345,19 +345,19 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
-  {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
-    icon: "/assets/socials/linkedIn.svg",
+    href: "https://www.linkedin.com/in/utkarshdev2411/",
+    icon: "https://api.iconify.design/mdi/linkedin.svg?color=white",
   },
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    name: "Email",
+    href: "mailto:utkarshsharma2027@gmail.com",
+    icon: "https://api.iconify.design/mdi/email.svg?color=white",
+  },
+  {
+    name: "GitHub",
+    href: "https://github.com/utkarsh5026",
+    icon: "https://api.iconify.design/mdi/github.svg?color=white",
   },
 ];
 
