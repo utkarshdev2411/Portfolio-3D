@@ -19,7 +19,7 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I&apos;m Utkarsh Sharma</p>
             <p className="subtext">
-           I am a passionate college student with a strong interest in Web Development and GenAI.  I am always eager to learn and grow, and I am excited to take on new challenges in the tech industry.
+        Final-year B.Tech IT student with hands-on experience in building scalable web applications and GenAI-powered systems. Proven ability to deliver production-ready backend and full-stack solutions, with a strong focus on performance, reliability, and real-world impact.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -53,6 +53,7 @@ const About = () => {
   text="Middleware"
   containerRef={grid2Container}
 />
+
 <Card
   style={{ rotate: "20deg", top: "10%", left: "38%" }}
   text="Server"
@@ -101,8 +102,8 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
-              allow me to build robust and scalable applications
+              I specialize in JavaScript and Python, working with React, Node.js, Express, FastAPI, and MongoDB.
+I use this stack to build robust, scalable web and backend applications.
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">

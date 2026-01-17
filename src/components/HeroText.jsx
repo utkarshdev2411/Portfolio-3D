@@ -2,7 +2,7 @@ import { FlipWords } from "./FlipWords";
 import { motion } from "motion/react";
 
 const HeroText = () => {
-  const words = ["GenAI", "MERN", "FullStack", "Frontend", "Backend"];
+  const words = ["GenAI", "MERN", "FullStack", "Frontend", "Backend", "Responsive", "APIs", "UI/UX",];
 
   const variants = {
     hidden: { opacity: 0, x: -50 },
