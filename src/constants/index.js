@@ -1,226 +1,346 @@
 export const myProjects = [
+   {
+  id: 2, 
+  title: "Bakistry: E-Commerce Bakery Platform",
+  description:
+    "A comprehensive full-stack e-commerce solution designed for custom bakery orders, featuring a user-friendly storefront and a powerful admin dashboard. Freelance project achieving 200K+ impressions with daily order management and processing.",
+  subDescription: [
+    "Architected a scalable backend using Node.js and Express with MongoDB, managing complex data relationships for products, orders, and user profiles.",
+    "Built a dynamic and responsive frontend with React.js and Tailwind CSS, integrating GSAP and Framer Motion for an engaging user experience.",
+    "Implemented secure payment processing using Stripe and Razorpay, along with Google OAuth for seamless user authentication.",
+    "Developed a dedicated Admin Panel for real-time inventory management, order tracking, and revenue analytics.",
+    "Integrated Cloudinary for optimized image management and AWS/R2 for secure file storage.",
+  ],
+  href: "https://thebakistry.com/",
+  logo: "",
+  image: "https://res.cloudinary.com/dkwoyfpy3/image/upload/v1768651311/0ac9d3aa-083d-4a20-b990-b128f348addb.png",
+  tags: [
+    {
+      id: 1,
+      name: "React",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    },
+    {
+      id: 2,
+      name: "Node.js",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    },
+    {
+      id: 3,
+      name: "MongoDB",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    },
+    {
+      id: 4,
+      name: "Express",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    },
+    {
+      id: 5,
+      name: "TailwindCSS",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    },
+    {
+      id: 6,
+      name: "Stripe",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/stripe/stripe-original.svg",
+    },
+    {
+      id: 7,
+      name: "AWS",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+    },
+  ],
+},
+ {
+  id: 5,
+  title: "TipsyBomb: Premium Cocktail & Event Booking",
+  description:
+    "A specialized e-commerce and booking platform allowing users to purchase premium cocktail kits and book professional bartender services for private events. Freelance project with 50K+ website impressions.",
+  subDescription: [
+    "Developed a responsive full-stack application using the MERN stack (MongoDB, Express, React, Node.js), featuring a modern UI with Tailwind CSS.",
+    "Integrated Stripe Payment Gateway to handle secure checkout sessions for both product purchases and service bookings.",
+    "Implemented a robust authentication system combining Firebase (Frontend) and JWT (Backend) to secure user data and admin routes.",
+    "Built a comprehensive Admin Dashboard for real-time management of products, bookings, and order statuses.",
+    "Utilized Cloudinary for efficient media management and optimization of high-quality cocktail imagery.",
+  ],
+  href: "https://www.tipsybombs.com/", 
+  logo: "",
+  image: "https://res.cloudinary.com/dkwoyfpy3/image/upload/v1768652153/58c5d642-85e1-4b20-85d7-a661946adb99.png", 
+  tags: [
+    {
+      id: 1,
+      name: "React",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    },
+    {
+      id: 2,
+      name: "Node.js",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    },
+    {
+      id: 3,
+      name: "MongoDB",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    },
+    {
+      id: 4,
+      name: "Express",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    },
+    {
+      id: 5,
+      name: "Stripe",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/stripe/stripe-original.svg",
+    },
+    {
+      id: 6,
+      name: "Firebase",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+    },
+    {
+      id: 7,
+      name: "TailwindCSS",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    },
+  ],
+},
+  
+   {
+  id: 1,
+  title: "AgriTech: AI Crop & Soil Diagnosis",
+  description:
+    "An innovative web platform empowering farmers with AI-driven crop disease diagnosis, detailed soil report analysis, and a supportive community network.",
+  subDescription: [
+    "Developed a robust full-stack application using React.js and Node.js/Express, ensuring scalable user management and seamless community interactions.",
+    "Integrated Google Generative AI and Hugging Face models via a Python/Flask microservice to provide accurate crop disease identification and soil health insights.",
+    "Implemented a RAG (Retrieval-Augmented Generation) pipeline using FAISS and LangChain to extract and analyze data from uploaded soil report PDFs.",
+    "Designed a responsive and modern user interface with Tailwind CSS, utilizing Redux Toolkit for efficient state management across the application.",
+  ],
+  href: "https://agri-tech-peach-seven.vercel.app/",
+  logo: "",
+  image: "https://res.cloudinary.com/dkwoyfpy3/image/upload/v1768650992/19127a9d-cf22-4a27-b790-ce570afc9ad6.png",
+  tags: [
+    {
+      id: 1,
+      name: "React",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    },
+    {
+      id: 2,
+      name: "Node.js",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    },
+    {
+      id: 3,
+      name: "MongoDB",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    },
+    {
+      id: 4,
+      name: "TailwindCSS",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    },
+    {
+      id: 5,
+      name: "Flask",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
+    },
+    {
+      id: 6,
+      name: "GenAI",
+      path: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg",
+    },
+  ],
+},
+{
+  id: 4,
+  title: "Student Payments Analytics Dashboard",
+  description:
+    "A centralized financial management system designed for educational institutions to track student payments, monitor transaction statuses, and visualize real-time revenue data.",
+  subDescription: [
+    "Built a high-performance frontend using React and Vite, implementing advanced data tables with server-side pagination, searching, and filtering capabilities.",
+    "Developed a secure RESTful API using Node.js and Express, incorporating JWT-based authentication to protect sensitive financial data.",
+    "Designed a scalable MongoDB database schema to efficiently handle complex relationships between students, payment orders, and transaction logs.",
+    "Created a responsive and accessible user interface with Tailwind CSS, featuring interactive modal workflows for payment processing and status verification.",
+    "Implemented a robust notification system to provide real-time feedback on transaction outcomes and system updates.",
+  ],
+  href: "https://student-payemnts-dasboard-frontend.vercel.app/login",
+  logo: "",
+  image: "https://res.cloudinary.com/dkwoyfpy3/image/upload/v1768651866/7a94722d-f190-4feb-bfcb-c529e60fba99.png",
+  tags: [
+    {
+      id: 1,
+      name: "React",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    },
+    {
+      id: 2,
+      name: "Node.js",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    },
+    {
+      id: 3,
+      name: "MongoDB",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    },
+    {
+      id: 4,
+      name: "Express",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    },
+    {
+      id: 5,
+      name: "TailwindCSS",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    },
+    {
+      id: 6,
+      name: "Vite",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
+    },
+  ],
+},
+ 
   {
-    id: 1,
-    title: "E-commerce Platform",
-    description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
-    subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/accessories.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  id: 3,
+  title: "Modern Analytics Dashboard & Auth System",
+  description:
+    "A production-ready full-stack web application featuring secure passwordless authentication, interactive data visualization, and a highly responsive modern UI.",
+  subDescription: [
+    "Built a high-performance frontend using Next.js 15 and React 19, utilizing Shadcn/UI and Tailwind CSS for a polished, accessible design.",
+    "Developed a secure RESTful backend with Node.js and Express, implementing email-based OTP authentication and JWT for stateless session management.",
+    "Integrated Recharts for dynamic analytics visualization and Framer Motion to create smooth, engaging user interface transitions.",
+    "Deployed a scalable architecture with the frontend hosted on Vercel and the backend API running on Microsoft Azure App Service.",
+  ],
+  href: "https://dashboard-seven-orpin-78.vercel.app/",
+  logo: "",
+  image: "https://res.cloudinary.com/dkwoyfpy3/image/upload/v1768651617/c9e727ed-b487-47a4-a83d-a723ba8c23bd.png", 
+  tags: [
+    {
+      id: 1,
+      name: "Next.js",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    },
+    {
+      id: 2,
+      name: "React",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    },
+    {
+      id: 3,
+      name: "Node.js",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    },
+    {
+      id: 4,
+      name: "Express",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    },
+    {
+      id: 5,
+      name: "MongoDB",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    },
+    {
+      id: 6,
+      name: "TailwindCSS",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    },
+    {
+      id: 7,
+      name: "Azure",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
+    },
+  ],
+},
+  
+ {
+  id: 7,
+  title: "Deep Work Productivity Planner",
+  description:
+    "A science-backed productivity tool designed to help users maintain focus and consistency through structured deep work slots and real-time analytics.",
+  subDescription: [
+    "Developed a highly interactive single-page application using React.js, featuring a dark-themed, distraction-free UI built with Tailwind CSS.",
+    "Integrated Chart.js to visualize productivity metrics, including completion rates, focus streaks, and daily hour tracking.",
+    "Implemented a robust local storage persistence layer, allowing users to save progress, export data to JSON, and sync across sessions without a backend.",
+    "Designed a 'Deep Work' tracking system that monitors qualitative metrics like focus intensity, energy levels, and session clarity.",
+  ],
+  href: "https://plannar-rho.vercel.app/",
+  logo: "",
+  image: "https://res.cloudinary.com/dkwoyfpy3/image/upload/v1768653122/c693754d-ae7d-43ff-8770-a0c21bbefe58.png", 
+  tags: [
+    {
+      id: 1,
+      name: "React",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    },
+    {
+      id: 2,
+      name: "TailwindCSS",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    },
+    {
+      id: 3,
+      name: "Chart.js",
+      path: "https://www.chartjs.org/img/chartjs-logo.svg",
+    },
+    {
+      id: 4,
+      name: "JavaScript",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    },
+  ],
+},
   {
-    id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  id: 6,
+  title: "Community Learning Hub & Content Aggregator",
+  description:
+    "A centralized educational platform that aggregates learning resources from various sources, rewarding user engagement through a gamified credit system.",
+  subDescription: [
+    "Developed a full-stack content aggregation engine using Node.js and Express, utilizing `rss-parser` and `node-cron` to automatically fetch and schedule updates from external learning feeds.",
+    "Built a dynamic frontend with React and Vite, featuring a responsive feed interface where users can discover, save, and share educational content.",
+    "Implemented a virtual credit economy (Gamification) allowing users to earn credits through engagement and unlock premium/exclusive content.",
+    "Designed a secure Admin Dashboard for managing user roles, monitoring content reports, and overseeing system analytics using Role-Based Access Control (RBAC).",
+    "Secured the application with JWT authentication and established a robust MongoDB database architecture for handling user progress and content metadata.",
+  ],
+  href: "https://community-learning-hub-topaz.vercel.app/feed",
+  logo: "",
+  image: "https://res.cloudinary.com/dkwoyfpy3/image/upload/v1768652452/fbfc177a-6dc2-4a1e-baa6-d01ceb77476d.png", 
+  tags: [
+    {
+      id: 1,
+      name: "React",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    },
+    {
+      id: 2,
+      name: "Node.js",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    },
+    {
+      id: 3,
+      name: "MongoDB",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    },
+    {
+      id: 4,
+      name: "Express",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    },
+    {
+      id: 5,
+      name: "Vite",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
+    },
+    {
+      id: 6,
+      name: "CSS3",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    },
+  ],
+},
+
 ];
 
 export const mySocials = [

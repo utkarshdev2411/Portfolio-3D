@@ -30,48 +30,62 @@ const About = () => {
             ref={grid2Container}
             className="flex items-center justify-center w-full h-full"
           >
-            <p className="flex items-end text-5xl text-gray-500">
+            <p className="flex items-end text-2xl md:text-3xl text-gray-500 font-light tracking-wide">
               CODE IS CRAFT
             </p>
-         <Card
-  style={{ rotate: "75deg", top: "30%", left: "20%" }}
-  text="GenAI"
-  containerRef={grid2Container}
-/>
-<Card
-  style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-  text="Database"
-  containerRef={grid2Container}
-/>
-<Card
-  style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
-  text="Langchain"
-  containerRef={grid2Container}
-/>
-<Card
-  style={{ rotate: "-45deg", top: "55%", left: "0%" }}
-  text="Middleware"
-  containerRef={grid2Container}
-/>
-
-<Card
-  style={{ rotate: "20deg", top: "10%", left: "38%" }}
-  text="Server"
-  containerRef={grid2Container}
-/>
             <Card
-              style={{ rotate: "30deg", top: "70%", left: "70%" }}
+              style={{ rotate: "15deg", top: "8%", left: "15%" }}
+              text="GenAI"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "-12deg", top: "45%", left: "8%" }}
+              text="Database"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "8deg", top: "75%", left: "18%" }}
+              text="Langchain"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "-20deg", top: "15%", left: "62%" }}
+              text="API"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "25deg", top: "50%", left: "72%" }}
+              text="Cloud"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "12deg", top: "28%", left: "5%" }}
+              text="Backend"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "-18deg", top: "82%", left: "48%" }}
+              text="Full Stack"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "-8deg", top: "78%", left: "65%" }}
               image="assets/logos/python.png"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-45deg", top: "70%", left: "25%" }}
+              style={{ rotate: "18deg", top: "48%", left: "38%" }}
               image="assets/logos/nodejs.png"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-45deg", top: "5%", left: "10%" }}
+              style={{ rotate: "-15deg", top: "12%", left: "38%" }}
               image="assets/logos/Chatgpt.png"
+              containerRef={grid2Container}
+            />
+            <Card
+              style={{ rotate: "22deg", top: "65%", left: "0%" }}
+              image="assets/logos/react.svg"
               containerRef={grid2Container}
             />
           </div>
